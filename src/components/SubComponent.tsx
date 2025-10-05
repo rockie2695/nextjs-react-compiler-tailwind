@@ -7,7 +7,7 @@ export default function SubComponent({
 }) {
   console.log("subComponent", name, value);
   return (
-    <div>
+    <div className="text-primary">
       subComponent {name} {value}
     </div>
   );
