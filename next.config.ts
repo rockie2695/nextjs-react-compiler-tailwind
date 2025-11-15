@@ -7,12 +7,6 @@ const nextConfig: NextConfig = {
       compilationMode: "infer",
     },
   },
-  // Enable file system polling for Docker
-  devIndicators: {
-    buildActivity: true,
-  },
-  // Enable Fast Refresh
-  fastRefresh: true,
 };
 
 export default nextConfig;
