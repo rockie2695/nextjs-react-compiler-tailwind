@@ -7,7 +7,7 @@
     "build": "next build --turbopack",
     "start": "next start",
     "lint": "eslint",
-    "docker-dev":"WATCHPACK_POLLING=true next dev"
+    "docker-dev":"next dev"
   },
   "dependencies": {
     "babel-plugin-react-compiler": "^19.1.0-rc.3",
